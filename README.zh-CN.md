@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://obsidian.md/download" width="120" />
-
 # Obsidian Translations
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)

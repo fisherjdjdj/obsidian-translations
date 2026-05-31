@@ -1,0 +1,384 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Things",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supportedVersions": "2.1.20",
+        "title": "Things",
+        "description": "Things Localization & Tweaks",
+        "author": ""
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Things Theme",
+            "target": "Things Theme"
+        },
+        {
+            "type": "title",
+            "source": "功能",
+            "target": "功能"
+        },
+        {
+            "type": "title",
+            "source": "移动端黑色背景",
+            "target": "移动端黑色背景"
+        },
+        {
+            "type": "description",
+            "source": "将移动端编辑器的背景更改为默认的主题为黑色",
+            "target": "将移动端编辑器的背景更改为默认的主题为黑色"
+        },
+        {
+            "type": "title",
+            "source": "禁用移动端浮动操作按钮",
+            "target": "禁用移动端浮动操作按钮"
+        },
+        {
+            "type": "description",
+            "source": "将编辑/预览按钮的位置恢复为移动端标题中的默认设置",
+            "target": "将编辑/预览按钮的位置恢复为移动端标题中的默认设置"
+        },
+        {
+            "type": "title",
+            "source": "高亮当前活动行",
+            "target": "高亮当前活动行"
+        },
+        {
+            "type": "description",
+            "source": "更改当前工作行的背景颜色",
+            "target": "更改当前工作行的背景颜色"
+        },
+        {
+            "type": "title",
+            "source": "精美代码块",
+            "target": "精美代码块"
+        },
+        {
+            "type": "description",
+            "source": "启用带编号的精美代码块",
+            "target": "启用带编号的精美代码块"
+        },
+        {
+            "type": "title",
+            "source": "精美高亮",
+            "target": "精美高亮"
+        },
+        {
+            "type": "description",
+            "source": "启用带下划线的精美高亮样式",
+            "target": "启用带下划线的精美高亮样式"
+        },
+        {
+            "type": "title",
+            "source": "禁用看板样式",
+            "target": "禁用看板样式"
+        },
+        {
+            "type": "description",
+            "source": "移除看板插件的极简样式",
+            "target": "移除看板插件的极简样式"
+        },
+        {
+            "type": "title",
+            "source": "为内部链接添加下划线",
+            "target": "为内部链接添加下划线"
+        },
+        {
+            "type": "description",
+            "source": "显示内部链接的下划线",
+            "target": "显示内部链接的下划线"
+        },
+        {
+            "type": "title",
+            "source": "为外部链接添加下划线",
+            "target": "为外部链接添加下划线"
+        },
+        {
+            "type": "description",
+            "source": "显示外部链接的下划线",
+            "target": "显示外部链接的下划线"
+        },
+        {
+            "type": "title",
+            "source": "排版",
+            "target": "排版"
+        },
+        {
+            "type": "title",
+            "source": "默认字体颜色",
+            "target": "默认字体颜色"
+        },
+        {
+            "type": "description",
+            "source": "对加粗、斜体和引用使用默认的字体颜色样式",
+            "target": "对加粗、斜体和引用使用默认的字体颜色样式"
+        },
+        {
+            "type": "title",
+            "source": "高亮颜色（浅色模式）",
+            "target": "高亮颜色（浅色模式）"
+        },
+        {
+            "type": "title",
+            "source": "高亮颜色（深色模式）",
+            "target": "高亮颜色（深色模式）"
+        },
+        {
+            "type": "title",
+            "source": "加粗字体颜色",
+            "target": "加粗字体颜色"
+        },
+        {
+            "type": "title",
+            "source": "斜体字体颜色",
+            "target": "斜体字体颜色"
+        },
+        {
+            "type": "title",
+            "source": "引用字体颜色",
+            "target": "引用字体颜色"
+        },
+        {
+            "type": "title",
+            "source": "内联代码块字体颜色（浅色模式）",
+            "target": "内联代码块字体颜色（浅色模式）"
+        },
+        {
+            "type": "title",
+            "source": "内联代码块字体颜色（深色模式）",
+            "target": "内联代码块字体颜色（深色模式）"
+        },
+        {
+            "type": "title",
+            "source": "标签背景颜色（浅色模式）",
+            "target": "标签背景颜色（浅色模式）"
+        },
+        {
+            "type": "title",
+            "source": "标签字体颜色（浅色模式）",
+            "target": "标签字体颜色（浅色模式）"
+        },
+        {
+            "type": "title",
+            "source": "标签背景颜色（深色模式）",
+            "target": "标签背景颜色（深色模式）"
+        },
+        {
+            "type": "title",
+            "source": "标签字体颜色（深色模式）",
+            "target": "标签字体颜色（深色模式）"
+        },
+        {
+            "type": "title",
+            "source": "进度多彩模式切换器",
+            "target": "进度多彩模式切换器"
+        },
+        {
+            "type": "description",
+            "source": "切换进度颜色方案",
+            "target": "切换进度颜色方案"
+        },
+        {
+            "type": "title",
+            "source": "进度 2-39% 的颜色",
+            "target": "进度 2-39% 的颜色"
+        },
+        {
+            "type": "title",
+            "source": "进度 40-59% 的颜色",
+            "target": "进度 40-59% 的颜色"
+        },
+        {
+            "type": "title",
+            "source": "进度 60-79% 的颜色",
+            "target": "进度 60-79% 的颜色"
+        },
+        {
+            "type": "title",
+            "source": "进度 80-99% 的颜色",
+            "target": "进度 80-99% 的颜色"
+        },
+        {
+            "type": "title",
+            "source": "进度 1,100% 的颜色",
+            "target": "进度 1,100% 的颜色"
+        },
+        {
+            "type": "title",
+            "source": "标题",
+            "target": "标题"
+        },
+        {
+            "type": "title",
+            "source": "一级标题",
+            "target": "一级标题"
+        },
+        {
+            "type": "title",
+            "source": "一级标题字体大小",
+            "target": "一级标题字体大小"
+        },
+        {
+            "type": "description",
+            "source": "接受任何 CSS 字体大小值",
+            "target": "接受任何 CSS 字体大小值"
+        },
+        {
+            "type": "title",
+            "source": "一级标题字体粗细",
+            "target": "一级标题字体粗细"
+        },
+        {
+            "type": "description",
+            "source": "接受表示 CSS 字体粗细的数字",
+            "target": "接受表示 CSS 字体粗细的数字"
+        },
+        {
+            "type": "title",
+            "source": "一级标题颜色",
+            "target": "一级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "二级标题",
+            "target": "二级标题"
+        },
+        {
+            "type": "title",
+            "source": "二级标题字体大小",
+            "target": "二级标题字体大小"
+        },
+        {
+            "type": "title",
+            "source": "二级标题字体粗细",
+            "target": "二级标题字体粗细"
+        },
+        {
+            "type": "title",
+            "source": "二级标题颜色",
+            "target": "二级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "二级标题下划线",
+            "target": "二级标题下划线"
+        },
+        {
+            "type": "description",
+            "source": "切换二级标题下划线（底边线）",
+            "target": "切换二级标题下划线（底边线）"
+        },
+        {
+            "type": "title",
+            "source": "三级标题",
+            "target": "三级标题"
+        },
+        {
+            "type": "title",
+            "source": "三级标题字体大小",
+            "target": "三级标题字体大小"
+        },
+        {
+            "type": "title",
+            "source": "三级标题字体粗细",
+            "target": "三级标题字体粗细"
+        },
+        {
+            "type": "title",
+            "source": "三级标题颜色",
+            "target": "三级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "四级标题",
+            "target": "四级标题"
+        },
+        {
+            "type": "title",
+            "source": "四级标题字体大小",
+            "target": "四级标题字体大小"
+        },
+        {
+            "type": "title",
+            "source": "四级标题字体粗细",
+            "target": "四级标题字体粗细"
+        },
+        {
+            "type": "title",
+            "source": "四级标题颜色",
+            "target": "四级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "四级标题变换",
+            "target": "四级标题变换"
+        },
+        {
+            "type": "description",
+            "source": "变换四级标题文本",
+            "target": "变换四级标题文本"
+        },
+        {
+            "type": "label",
+            "source": "Uppercase",
+            "target": "Uppercase"
+        },
+        {
+            "type": "label",
+            "source": "None",
+            "target": "None"
+        },
+        {
+            "type": "title",
+            "source": "五级标题",
+            "target": "五级标题"
+        },
+        {
+            "type": "title",
+            "source": "五级标题字体大小",
+            "target": "五级标题字体大小"
+        },
+        {
+            "type": "title",
+            "source": "五级标题字体粗细",
+            "target": "五级标题字体粗细"
+        },
+        {
+            "type": "title",
+            "source": "五级标题颜色",
+            "target": "五级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "六级标题",
+            "target": "六级标题"
+        },
+        {
+            "type": "title",
+            "source": "六级标题字体大小",
+            "target": "六级标题字体大小"
+        },
+        {
+            "type": "title",
+            "source": "六级标题字体粗细",
+            "target": "六级标题字体粗细"
+        },
+        {
+            "type": "title",
+            "source": "六级标题颜色",
+            "target": "六级标题颜色"
+        },
+        {
+            "type": "title",
+            "source": "鸣谢",
+            "target": "鸣谢"
+        },
+        {
+            "type": "description",
+            "source": "Created with ❤︎ by @colineckert. Support @colineckert at buymeacoffee.com/colineckert",
+            "target": "Created with ❤︎ by @colineckert. Support @colineckert at buymeacoffee.com/colineckert"
+        }
+    ]
+}

@@ -1,0 +1,1093 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-memos",
+        "version": "1.0.0",
+        "title": "Thino",
+        "description": "Thino Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.8.21",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "&nbsp;",
+                    "target": "&nbsp;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "tab-content active",
+                    "target": "tab-content active"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[zustand devtools middleware] Unsupported action format",
+                    "target": "[zustand devtools middleware] 不支持的操作格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "\n                    [zustand devtools middleware] Unsupported __setState action format.\n                    When using 'store' option in devtools(), the 'state' should have only one key, which is a value of 'store' that was passed in devtools(),\n                    and value of this only key should be a state object. Example: { \"type\": \"__setState\", \"state\": { \"abc123Store\": { \"foo\": \"bar\" } } }\n                    ",
+                    "target": "\n                    [zustand devtools middleware] 不支持的 __setState 操作格式。\n                    在 devtools() 中使用 'store' 选项时，'state' 应该只有一个键，该键是传入 devtools() 的 'store' 的值，\n                    且该唯一键的值应为一个 state 对象。示例：{ \"type\": \"__setState\", \"state\": { \"abc123Store\": { \"foo\": \"bar\" } } }\n                    "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[zustand devtools middleware] Could not parse the received json",
+                    "target": "[zustand devtools middleware] 无法解析接收到的 json"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "State loaded from storage couldn't be migrated since no migrate function was provided",
+                    "target": "从存储加载的状态无法迁移，因为未提供 migrate 函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "error in grabImageFromUrl",
+                    "target": "grabImageFromUrl 出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse URL:",
+                    "target": "解析 URL 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error unloading view:",
+                    "target": "卸载视图出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Get storage failed in ",
+                    "target": "获取存储失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Save storage failed in ",
+                    "target": "保存存储失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid time format:",
+                    "target": "无效的时间格式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to calculate stats banner:",
+                    "target": "计算统计横幅失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Fallback calculation also failed:",
+                    "target": "回退计算也失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to calculate sidebar stats:",
+                    "target": "计算侧边栏统计失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error handling view switcher click:",
+                    "target": "处理视图切换点击时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save editor history:",
+                    "target": "保存编辑器历史失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to get editor history:",
+                    "target": "获取编辑器历史失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clear editor history:",
+                    "target": "清除编辑器历史失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Generate image failed:",
+                    "target": "生成图像失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Export failed:",
+                    "target": "导出失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save content:",
+                    "target": "保存内容失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Immediate save failed:",
+                    "target": "立即保存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy to clipboard:",
+                    "target": "复制到剪贴板失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Pull-to-refresh failed:",
+                    "target": "下拉刷新失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error calculating query count:",
+                    "target": "计算查询次数出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error initializing database:",
+                    "target": "初始化数据库出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting daily limit:",
+                    "target": "获取每日限额出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating daily limit:",
+                    "target": "更新每日限额出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error getting review data:",
+                    "target": "获取复习数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error setting review data:",
+                    "target": "设置复习数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error updating review:",
+                    "target": "更新复习出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error clearing review data:",
+                    "target": "清除复习数据出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading stats:",
+                    "target": "加载统计出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch image references for gallery:",
+                    "target": "获取图库图像引用失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to generate token:",
+                    "target": "生成令牌失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token validation error:",
+                    "target": "令牌验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "User verification check failed:",
+                    "target": "用户验证检查失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse token info:",
+                    "target": "解析令牌信息失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Token generation error:",
+                    "target": "令牌生成错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "API test error:",
+                    "target": "API 测试错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize worker:",
+                    "target": "初始化 worker 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request handling error:",
+                    "target": "请求处理错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Server error:",
+                    "target": "服务器错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Client error:",
+                    "target": "客户端错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Route handling error:",
+                    "target": "路由处理错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Create request error:",
+                    "target": "创建请求错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Request stream error:",
+                    "target": "请求流错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Search error:",
+                    "target": "搜索错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "List error:",
+                    "target": "列表错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Info error:",
+                    "target": "信息错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing image URL:",
+                    "target": "处理图片 URL 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing base64 image:",
+                    "target": "处理 base64 图片时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing images:",
+                    "target": "处理图片时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload error:",
+                    "target": "上传错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to start server:",
+                    "target": "启动服务器失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Configuration failed:",
+                    "target": "配置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "replaceSelection",
+                    "source": "\n\\`\\`\\`thino\n{\n  editor: false\n}\n\\`\\`\\`\n",
+                    "target": "\n\\`\\`\\`thino\n{\n  editor: false\n}\n\\`\\`\\`\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Generate Token",
+                    "target": "生成令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Test API",
+                    "target": "测试 API"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "API Documentation",
+                    "target": "API 文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Chrome Web Store",
+                    "target": "Chrome 网上应用店"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Generate and manage API tokens for external applications",
+                    "target": "为外部应用生成并管理 API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "💎 Thino",
+                    "target": "💎 Thino"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "THINO 😉",
+                    "target": "THINO 😉"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Input anything here",
+                    "target": "在此输入任意内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Generate API Token",
+                    "target": "生成 API 令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Choose the expiration time for your API token. Longer expiration times are less secure but more convenient.",
+                    "target": "选择你的 API 令牌过期时间。过期时间越长安全性越低，但更方便。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "API Token Generated",
+                    "target": "API 令牌已生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Your API token has been generated successfully. Copy and save it securely as it will expire in 1 hour.",
+                    "target": "你的 API 令牌已成功生成。请复制并安全保存，它将在 1 小时后过期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Thino API Documentation",
+                    "target": "Thino API 文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Copied!",
+                    "target": "已复制！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Back to home",
+                    "target": "返回主页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Generate a new API token for external access",
+                    "target": "生成新的 API 令牌用于外部访问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Test API connection",
+                    "target": "测试 API 连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "View API documentation and examples",
+                    "target": "查看 API 文档和示例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copy to clipboard failed.",
+                    "target": "复制到剪贴板失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Copy to clipboard failed, methods not supports.",
+                    "target": "复制到剪贴板失败，不支持该方法。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to load sort config:",
+                    "target": "加载排序配置失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This function is deprecated, use ThinoWorkerManager.calculateStatsBanner() instead",
+                    "target": "此函数已弃用，请改用 ThinoWorkerManager.calculateStatsBanner()"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "react-fast-compare cannot handle circular refs",
+                    "target": "react-fast-compare 无法处理循环引用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to extract color from image:",
+                    "target": "从图片提取颜色失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to extract color:",
+                    "target": "提取颜色失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Token validation failed: Invalid app ID",
+                    "target": "令牌验证失败：无效的应用 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Token validation failed: Token expired",
+                    "target": "令牌验证失败：令牌已过期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Token validation failed: Version mismatch",
+                    "target": "令牌验证失败：版本不匹配"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Token validation failed: Invalid signature",
+                    "target": "令牌验证失败：无效签名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to decode source link:",
+                    "target": "解码来源链接失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No headings found",
+                    "target": "未找到标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Thino Not Found",
+                    "target": "未找到 Thino"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to refresh data",
+                    "target": "刷新数据失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy id",
+                    "target": "复制 id 失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pro license required to generate API token",
+                    "target": "生成 API 令牌需要 Pro 许可证"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pro license required for API access",
+                    "target": "API 访问需要 Pro 许可证"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily Notes plugin is not installed",
+                    "target": "未安装 Daily Notes 插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Periodic Notes plugin is not installed",
+                    "target": "未安装 Periodic Notes 插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Token copied to clipboard",
+                    "target": "令牌已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Authorization header copied to clipboard",
+                    "target": "授权头已复制到剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Month View",
+                    "target": "月视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Select color filter",
+                    "target": "选择颜色筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": " 🔽",
+                    "target": " 🔽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a new thino with text content and optional images",
+                    "target": "创建新的 thino，包含文本内容和可选图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The content of the thino",
+                    "target": "thino 的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Save location type (DAILY, CANVAS, MULTI, FILE)",
+                    "target": "保存位置类型（DAILY、CANVAS、MULTI、FILE）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Array of base64 encoded images",
+                    "target": "Base64 编码图片数组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Source URL to append to the thino",
+                    "target": "要附加到 thino 的源 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search for thinos containing specific keywords",
+                    "target": "搜索包含特定关键词的 thino"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search keyword",
+                    "target": "搜索关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Get a list of recent thinos",
+                    "target": "获取最近 thino 列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Number of thinos to return (1-100, default: 10)",
+                    "target": "返回的 thino 数量（1-100，默认：10）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Get current plugin settings information",
+                    "target": "获取当前插件设置信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Must be true to retrieve settings",
+                    "target": "必须为 true 才能获取设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Created Time",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Updated Time",
+                    "target": "更新时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Content Length",
+                    "target": "内容长度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Source Type",
+                    "target": "来源类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Thino Type",
+                    "target": "Thino 类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "1 Hour (Recommended)",
+                    "target": "1 小时（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "6 Hours",
+                    "target": "6 小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "12 Hours",
+                    "target": "12 小时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "1 Day",
+                    "target": "1 天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "3 Days",
+                    "target": "3 天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "1 Week",
+                    "target": "1 周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "30 Days (Maximum)",
+                    "target": "30 天（最长）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Error description",
+                    "target": "错误描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "点阵",
+                    "target": "点阵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "网格",
+                    "target": "网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "斜线",
+                    "target": "斜线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "交叉",
+                    "target": "交叉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "波点",
+                    "target": "波点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "菱形",
+                    "target": "菱形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "纸张",
+                    "target": "纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "蓝格",
+                    "target": "蓝格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Focus mode",
+                    "target": "专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Write your note here... (Shift+Enter for new line, Enter to save, Ctrl+Enter for new note)",
+                    "target": "在此输入你的笔记…（Shift+Enter 换行，Enter 保存，Ctrl+Enter 新建笔记）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Start a new note at the top...",
+                    "target": "在顶部开始一条新笔记…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Thino 😏",
+                    "target": "Thino 😏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Share thino with the world",
+                    "target": "与世界分享 thino"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Input url or file path",
+                    "target": "输入 URL 或文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "# Heading",
+                    "target": "# 标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Custom hours...",
+                    "target": "自定义小时数…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "History content:",
+                    "target": "历史内容："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No settings match search",
+                    "target": "没有设置匹配搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Token Expiration Time:",
+                    "target": "令牌过期时间："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Or enter custom hours (1-720):",
+                    "target": "或输入自定义小时数（1-720）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Security Note: Longer expiration times increase security risk. Only use extended periods if necessary.",
+                    "target": "⚠️ 安全提示：较长的过期时间会增加安全风险。仅在必要时使用延长期限。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generate Token",
+                    "target": "生成令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Token:",
+                    "target": "令牌："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Authorization Header:",
+                    "target": "Authorization 标头："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Usage Example:",
+                    "target": "使用示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Token",
+                    "target": "复制令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy Auth Header",
+                    "target": "复制授权标头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The Thino HTTP API allows you to interact with your thinos programmatically. All endpoints require authentication using a Bearer token.",
+                    "target": "Thino HTTP API 允许你以编程方式与 thinos 交互。所有端点都需要使用 Bearer 令牌进行身份验证。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Server Address: ",
+                    "target": "服务器地址： "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All API requests require a Bearer token in the Authorization header. Generate a token using the \"Generate Token\" button above.",
+                    "target": "所有 API 请求都需要在 Authorization 标头中携带 Bearer 令牌。使用上方的“Generate Token”按钮生成令牌。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Authorization Header Format:",
+                    "target": "Authorization 标头格式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Authorization: Bearer <your-token-here>",
+                    "target": "Authorization: Bearer <your-token-here>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API Endpoints",
+                    "target": "API 端点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This is my new thino",
+                    "target": "这是我的新 thino"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Response Format",
+                    "target": "响应格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All API responses return JSON in the following format:",
+                    "target": "所有 API 响应均按以下格式返回 JSON："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Success Response:",
+                    "target": "成功响应："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Error Response:",
+                    "target": "错误响应："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Common Error Codes",
+                    "target": "常见错误代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "401 Unauthorized - Missing or invalid token",
+                    "target": "401 未授权 - 缺少或无效的令牌"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "403 Forbidden - Pro license required",
+                    "target": "403 禁止访问 - 需要 Pro 许可证"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "404 Not Found - Endpoint not found",
+                    "target": "404 未找到 - 端点未找到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "405 Method Not Allowed - Wrong HTTP method",
+                    "target": "405 方法不允许 - HTTP 方法错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "413 Request Too Large - Request body too large",
+                    "target": "413 请求过大 - 请求体过大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "429 Too Many Requests - Rate limit exceeded",
+                    "target": "429 请求过多 - 超出速率限制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parameters:",
+                    "target": "参数："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Examples:",
+                    "target": "示例："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "My Generated Report",
+                    "target": "我生成的报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Create Thino",
+                    "target": "创建 Thino"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Search Thinos",
+                    "target": "搜索 Thinos"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "List Thinos",
+                    "target": "列出 Thinos"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Get Settings Info",
+                    "target": "获取设置信息"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

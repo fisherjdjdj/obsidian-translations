@@ -1,0 +1,484 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "calendar-plus",
+        "version": "1.0.0",
+        "title": "Calendar Plus",
+        "description": "Calendar Plus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.8.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "td.grid-right.svelte-1dlno4l{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-1dlno4l{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.8em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in,\n      color 0.1s ease-in;vertical-align:baseline}.week-num.svelte-1dlno4l:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-1dlno4l{color:var(--text-on-accent);background-color:var(--interactive-accent)}.week-num.active.svelte-1dlno4l:hover{background-color:var(--interactive-accent-hover)}.dot-container.svelte-1dlno4l{display:flex;flex-wrap:wrap;justify-content:center;min-height:6px}",
+                    "target": "td.grid-right.svelte-1dlno4l{border-right:1px solid var(--background-modifier-border)}.week-num.svelte-1dlno4l{background-color:var(--color-background-weeknum);border-radius:4px;color:var(--color-text-weeknum);cursor:pointer;font-size:0.8em;height:100%;padding:4px;text-align:center;transition:background-color 0.1s ease-in,\ncolor 0.1s ease-in;vertical-align:baseline}.week-num.svelte-1dlno4l:hover{background-color:var(--interactive-hover)}.week-num.active.svelte-1dlno4l{color:var(--text-on-accent);background-color:var(--interactive-accent)}.week-num.active.svelte-1dlno4l:hover{background-color:var(--interactive-accent-hover)}.dot-container.svelte-1dlno4l{display:flex;flex-wrap:wrap;justify-content:center;min-height:6px"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "locale",
+                    "target": "locale"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Open in new split",
+                    "target": "在新分页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "exists",
+                    "target": "存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Note exists",
+                    "target": "存在笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Word count and open tasks",
+                    "target": "字数统计和打开的任务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the behavior of Ctrl + Clicking on a date",
+                    "target": "设置在日期上Ctrl + 点击的行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a confirmation modal before creating a new note",
+                    "target": "在创建新笔记之前显示确认模态框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Tint weekend day columns so they stand out from weekdays. Off by default. When enabled you can customize which days count as the weekend.",
+                    "target": "将周末的日历列着色，使其与工作日区分开来。默认关闭。启用后，您可以自定义哪些天算作周末。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which days are shaded when \"Shade weekend columns\" is enabled. Independent of the \"Start week on\" setting.",
+                    "target": "选择在“着色周末列”启用时着色的日子。独立于“开始周”设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose what the dots on day and week cells represent.",
+                    "target": "选择日和周单元格上的点代表什么。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of words per filled dot. Up to 5 dots per cell.",
+                    "target": "每个填充点的单词数。每个单元格最多5点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show week numbers to the right of the calendar instead of the left.",
+                    "target": "将周数显示在日历的右侧而不是左侧。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Moment.js format string for note filenames",
+                    "target": "笔记文件名的Moment.js格式字符串。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Notes are created here. Leave blank for vault root.",
+                    "target": "在此处创建笔记。留空以使用保险库根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Path to template file. Leave blank for no template.",
+                    "target": "模板文件的路径。留空以不使用模板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set this if you want to use a locale different from the default",
+                    "target": "如果您想使用与默认不同的区域设置，请设置此选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Calendar behavior",
+                    "target": "日历行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Periodic Notes",
+                    "target": "周期性笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Locale",
+                    "target": "地区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start week on:",
+                    "target": "开始周从:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ctrl + Click Behavior",
+                    "target": "Ctrl + 点击行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm before creating new note",
+                    "target": "创建新笔记前确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Shade weekend columns",
+                    "target": "设置周末列的阴影"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Weekend days",
+                    "target": "周末天数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dot style",
+                    "target": "点样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Words per dot",
+                    "target": "每点单词数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable",
+                    "target": "启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Change week number side",
+                    "target": "更改周数侧边栏名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Template file",
+                    "target": "模板文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override locale:",
+                    "target": "覆盖区域设置："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: folder/subfolder",
+                    "target": "示例：文件夹/子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: templates/daily",
+                    "target": "示例：模板/每日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the periodic note template",
+                    "target": "读取周期性笔记模板失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "suggestion-container calendar-plus-suggest",
+                    "target": "suggestion-container calendar-plus-suggest"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "suggestion",
+                    "target": "suggestion"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open view",
+                    "target": "打开视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Weekly Note",
+                    "target": "打开每周笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reveal active note",
+                    "target": "显示活动笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Calendar manages periodic notes directly. To use existing notes, enter the same folder and date format you already use.",
+                    "target": "日历直接管理周期性笔记。要使用现有笔记，请进入您已使用的相同文件夹和日期格式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Never mind",
+                    "target": "没关系"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous Month",
+                    "target": "上个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next Month",
+                    "target": "下个月"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the periodic note template\")",
+                    "target": "Notice(\"Failed to read the periodic note template\")"
+                },
+                {
+                    "source": "setName(\"Calendar behavior\")",
+                    "target": "setName(\"Calendar behavior\")"
+                },
+                {
+                    "source": "setName(\"Periodic Notes\")",
+                    "target": "setName(\"Periodic Notes\")"
+                },
+                {
+                    "source": "setName(\"Start week on:\")",
+                    "target": "setName(\"Start week on:\")"
+                },
+                {
+                    "source": "setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")",
+                    "target": "setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")"
+                },
+                {
+                    "source": "setName(\"Ctrl + Click Behavior\")",
+                    "target": "setName(\"Ctrl + Click Behavior\")"
+                },
+                {
+                    "source": "setDesc(\"Set the behavior of Ctrl + Clicking on a date\")",
+                    "target": "setDesc(\"Set the behavior of Ctrl + Clicking on a date\")"
+                },
+                {
+                    "source": "setName(\"Confirm before creating new note\")",
+                    "target": "setName(\"Confirm before creating new note\")"
+                },
+                {
+                    "source": "setDesc(\"Show a confirmation modal before creating a new note\")",
+                    "target": "setDesc(\"Show a confirmation modal before creating a new note\")"
+                },
+                {
+                    "source": "setName(\"Shade weekend columns\")",
+                    "target": "setName(\"Shade weekend columns\")"
+                },
+                {
+                    "source": "setDesc(\"Tint weekend day columns so they stand out from weekdays. Off by default. When enabled you can customize which days count as the weekend.\")",
+                    "target": "setDesc(\"Tint weekend day columns so they stand out from weekdays. Off by default. When enabled you can customize which days count as the weekend.\")"
+                },
+                {
+                    "source": "setName(\"Weekend days\")",
+                    "target": "setName(\"Weekend days\")"
+                },
+                {
+                    "source": "setDesc('Choose which days are shaded when \"Shade weekend columns\" is enabled. Independent of the \"Start week on\" setting.')",
+                    "target": "setDesc('Choose which days are shaded when \"Shade weekend columns\" is enabled. Independent of the \"Start week on\" setting.')"
+                },
+                {
+                    "source": "setName(\"Dot style\")",
+                    "target": "setName(\"Dot style\")"
+                },
+                {
+                    "source": "setDesc(\"Choose what the dots on day and week cells represent.\")",
+                    "target": "setDesc(\"Choose what the dots on day and week cells represent.\")"
+                },
+                {
+                    "source": "setName(\"Words per dot\")",
+                    "target": "setName(\"Words per dot\")"
+                },
+                {
+                    "source": "setDesc(\"Number of words per filled dot. Up to 5 dots per cell.\")",
+                    "target": "setDesc(\"Number of words per filled dot. Up to 5 dots per cell.\")"
+                },
+                {
+                    "source": "setDesc(`Create and manage ${label.toLowerCase()} from Calendar`)",
+                    "target": "setDesc(`Create and manage ${label.toLowerCase()} from Calendar`)"
+                },
+                {
+                    "source": "setName(\"Change week number side\")",
+                    "target": "setName(\"Change week number side\")"
+                },
+                {
+                    "source": "setDesc(\"Show week numbers to the right of the calendar instead of the left.\")",
+                    "target": "setDesc(\"Show week numbers to the right of the calendar instead of the left.\")"
+                },
+                {
+                    "source": "setName(\"Date format\")",
+                    "target": "setName(\"Date format\")"
+                },
+                {
+                    "source": "setDesc(\"Moment.js format string for note filenames\")",
+                    "target": "setDesc(\"Moment.js format string for note filenames\")"
+                },
+                {
+                    "source": "setDesc(\"Notes are created here. Leave blank for vault root.\")",
+                    "target": "setDesc(\"Notes are created here. Leave blank for vault root.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: folder/subfolder\")",
+                    "target": "setPlaceholder(\"Example: folder/subfolder\")"
+                },
+                {
+                    "source": "setName(\"Template file\")",
+                    "target": "setName(\"Template file\")"
+                },
+                {
+                    "source": "setDesc(\"Path to template file. Leave blank for no template.\")",
+                    "target": "setDesc(\"Path to template file. Leave blank for no template.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: templates/daily\")",
+                    "target": "setPlaceholder(\"Example: templates/daily\")"
+                },
+                {
+                    "source": "setName(\"Override locale:\")",
+                    "target": "setName(\"Override locale:\")"
+                },
+                {
+                    "source": "setDesc(\"Set this if you want to use a locale different from the default\")",
+                    "target": "setDesc(\"Set this if you want to use a locale different from the default\")"
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"Unable to create new file.\")"
+                },
+                {
+                    "source": "setTitle(\"Open in new tab\")",
+                    "target": "setTitle(\"Open in new tab\")"
+                },
+                {
+                    "source": "text: \"Calendar manages periodic notes directly. To use existing notes, enter the same folder and date format you already use.\"",
+                    "target": "text: \"Calendar manages periodic notes directly. To use existing notes, enter the same folder and date format you already use.\""
+                },
+                {
+                    "source": "text: \"Never mind\"",
+                    "target": "text: \"Never mind\""
+                },
+                {
+                    "source": "text: `File ${filename} does not exist. Would you like to create it?`",
+                    "target": "text: `File ${filename} does not exist. Would you like to create it?`"
+                },
+                {
+                    "source": "textContent = \".dot.svelte-m7jv4s,.hollow.svelte-m7jv4s{display:inline-block;height:6px;width:6px;margin:0 1px}.filled.svelte-m7jv4s{fill:var(--color-dot)}.hollow.svelte-m7jv4s{fill:none;stroke:var(--color-dot)}\"",
+                    "target": "textContent = \".dot.svelte-m7jv4s,.hollow.svelte-m7jv4s{display:inline-block;height:6px;width:6px;margin:0 1px}.filled.svelte-m7jv4s{fill:var(--color-dot)}.hollow.svelte-m7jv4s{fill:none;stroke:var(--color-dot)}\""
+                },
+                {
+                    "source": "textContent = \"•\"",
+                    "target": "textContent = \"•\""
+                },
+                {
+                    "source": "textContent = `${/*todayDisplayStr*/ ctx[9]}`",
+                    "target": "textContent = `${/*todayDisplayStr*/ ctx[9]}`"
+                },
+                {
+                    "source": "textContent = \"W\"",
+                    "target": "textContent = \"W\""
+                },
+                {
+                    "source": "name: \"Open view\"",
+                    "target": "name: \"Open view\""
+                },
+                {
+                    "source": "name: \"Open Weekly Note\"",
+                    "target": "name: \"Open Weekly Note\""
+                },
+                {
+                    "source": "name: \"Reveal active note\"",
+                    "target": "name: \"Reveal active note\""
+                }
+            ]
+        }
+    }
+}

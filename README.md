@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/obsidianmd/obsidian-api/raw/master/icon.svg" width="120" />
+<img src="https://obsidian.md/download" width="120" />
 
 # Obsidian Translations
 
